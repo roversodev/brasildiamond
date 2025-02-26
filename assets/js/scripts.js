@@ -5,25 +5,25 @@ AOS.init({
 });
 document.getElementById('ano').textContent = new Date().getFullYear();
 
-// function mensagem(event) {
-//   alert("Erro: Conteúdo protegido pela nossa política de privacidade.");
-//   event.preventDefault();
-// }
+function mensagem(event) {
+  alert("Erro: Conteúdo protegido pela nossa política de privacidade.");
+  event.preventDefault();
+}
 
-// function bloquearCopia(event) {
-//   var tecla = event.keyCode || event.which;
+function bloquearCopia(event) {
+  var tecla = event.keyCode || event.which;
   
-//   if (sessionStorage.getItem("ultimaTecla") === "17" && tecla === 85) {
-//       event.preventDefault();
-//       window.location = "https://confraria.nunesvieira.com";
-//   }
+  if (sessionStorage.getItem("ultimaTecla") === "17" && tecla === 85) {
+      event.preventDefault();
+      window.location = "https://revestimentodiamond.com.br/";
+  }
   
-//   sessionStorage.setItem("ultimaTecla", tecla);
-// }
+  sessionStorage.setItem("ultimaTecla", tecla);
+}
 
-// document.addEventListener("keypress", bloquearCopia);
-// document.addEventListener("keydown", bloquearCopia);
-// document.addEventListener("contextmenu", mensagem);
+document.addEventListener("keypress", bloquearCopia);
+document.addEventListener("keydown", bloquearCopia);
+document.addEventListener("contextmenu", mensagem);
 
 if (document.getElementById("state1")) {
   const countUp = new CountUp("state1", document.getElementById("state1").getAttribute("countTo"));
