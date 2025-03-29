@@ -365,3 +365,20 @@ z-index: 999;
   right: 21px;
 }
 }
+
+.carousel-indicators [data-bs-target] {
+  background-color: #ffffff !important;
+  opacity: .8;
+}
+
+.carousel-indicators .active {
+  background-color: #00f7ff !important;
+}
+
+.gradient-text {
+  background: linear-gradient(to bottom, #000000, #000000, #56C3E8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.25rem;
+}

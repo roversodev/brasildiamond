@@ -27531,35 +27531,41 @@ p {
 }
 
 .text-2xl {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 
 .text-3xl {
-  font-size: 1.875rem;
+  font-size: 1.875rem !important;
 }
 
 .text-4xl {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 .text-5xl {
-  font-size: 2.25rem;
+  font-size: 2.25rem !important;
 }
 
 .text-6xl {
-  font-size: 3rem;
+  font-size: 3rem !important;
 }
 
 .text-7xl {
-  font-size: 3.75rem;
+  font-size: 3.75rem !important;
 }
 
 .text-8xl {
-  font-size: 4rem;
+  font-size: 4rem !important;
 }
 
 .text-9xl {
-  font-size: 5rem;
+  font-size: 5rem !important;
+}
+
+@media (min-width: 1024px) {
+  .text-lg-9xl {
+    font-size: 5rem !important;
+  }
 }
 /* ADD_KIT */
 .flatpickr-calendar {
